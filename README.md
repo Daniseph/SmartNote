@@ -2,7 +2,8 @@
 
 SmartNote é uma aplicação de notas que permite importar, editar e explorar ficheiros em Markdown. Oferece funcionalidades avançadas como análise de texto, criação automática de ligações entre notas e integração com uma inteligência artificial local.
 
-Funcionalidades principais
+#Funcionalidades principais
+
 Importação de notas em formato Markdown com metadados
 
 Extração automática de conceitos e entidades com processamento de linguagem natural (spaCy)

@@ -1,0 +1,54 @@
+{
+    "modelo_ia": {
+        "nome": "tinyllama",
+        "url_ollama": "http://localhost:11434",
+        "timeout": 30,
+        "temperatura": 0.7,
+        "max_tokens": 1024,
+        "ativar_ollama": true
+    },
+    "embeddings": {
+        "modelo": "all-MiniLM-L6-v2",
+        "dimensoes": 384,
+        "cache_embeddings": true
+    },
+    "links": {
+        "limiar_similaridade": 0.10000000000000007,
+        "max_links_por_paragrafo": 3,
+        "aplicar_apenas_primeira_ocorrencia": true,
+        "modo_semantico_ativo": true,
+        "confirmar_antes_aplicar": true
+    },
+    "busca": {
+        "destaque_cor": "#FFFF00",
+        "ignorar_acentos": true,
+        "busca_semantica_ativa": true,
+        "max_resultados": 50
+    },
+    "interface": {
+        "tema": "claro",
+        "fonte_tamanho": 12,
+        "fonte_familia": "Arial",
+        "texto_negrito": false,
+        "texto_italico": false,
+        "mostrar_backlinks": true,
+        "auto_salvar": true,
+        "intervalo_auto_salvar": 300
+    },
+    "performance": {
+        "max_notas_cache": 500,
+        "max_embeddings_cache": 2000,
+        "reindexar_automaticamente": false,
+        "threads_processamento": 1
+    },
+    "privacidade": {
+        "modo_offline": true,
+        "salvar_historico_pesquisa": false,
+        "logs_detalhados": false
+    },
+    "rag": {
+        "max_documentos_contexto": 3,
+        "limiar_relevancia": 0.35,
+        "max_caracteres_contexto": 2000
+    }
+}

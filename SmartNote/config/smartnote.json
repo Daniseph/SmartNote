@@ -1,0 +1,46 @@
+{
+  "modelo_ia": {
+    "nome": "gamma2",
+    "url_ollama": "http://localhost:11434",
+    "max_tokens": 2048,
+    "temperatura": 0.7,
+    "timeout": 30
+  },
+  "links": {
+    "limiar_similaridade": 0.7,
+    "max_links_por_paragrafo": 3,
+    "auto_gerar": false,
+    "usar_embeddings": true
+  },
+  "busca": {
+    "max_resultados": 50,
+    "ignorar_acentos": true,
+    "case_sensitive": false,
+    "usar_regex": false
+  },
+  "conceitos": {
+    "min_relevancia": 0.5,
+    "max_conceitos": 20,
+    "usar_nlp": true,
+    "filtrar_stopwords": true
+  },
+  "interface": {
+    "tema": "claro",
+    "fonte_tamanho": 12,
+    "auto_salvar": true,
+    "mostrar_backlinks": true
+  },
+  "backup": {
+    "auto_backup": true,
+    "intervalo_minutos": 30,
+    "max_backups": 10,
+    "compressao": true
+  },
+  "importacao": {
+    "auto_detectar_links": true,
+    "processar_frontmatter": true,
+    "validar_markdown": true,
+    "criar_preview": true
+  }
+}
+

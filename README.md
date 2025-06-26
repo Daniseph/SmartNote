@@ -45,6 +45,7 @@ Testes de desempenho (tempo para criar links e extrair conceitos)
 Testes manuais da interface (documentado em PDF)
 
 #Requisitos
+
 Python 3.9 ou superior
 
 PyQt5
@@ -58,4 +59,5 @@ sentence-transformers
 Ollama (opcional, apenas para o assistente de IA)
 
 #Como executar
+
 python main.py
